@@ -5,7 +5,7 @@ import { useUserStore } from '@/stores/user'
 // 根据环境动态设置 baseURL
 // 开发环境：/api 会被 Vite 代理转发到 http://localhost:3002
 // 生产环境：直接请求 Render 上的 API 服务器
-const baseURL = import.meta.env.DEV ? '/api' : 'https://shicoh-api.onrender.com/api'
+const baseURL = import.meta.env.DEV ? '/api' : 'https://shicoh-api.vercel.app/api'
 
 // 创建 axios 实例
 const request = axios.create({

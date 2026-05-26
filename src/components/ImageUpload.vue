@@ -38,9 +38,9 @@ const emit = defineEmits<{
 
 const userStore = useUserStore()
 
-const API_BASE = import.meta.env.DEV ? '' : 'https://shicoh-api.onrender.com'
+const API_BASE = import.meta.env.DEV ? '' : 'https://shicoh-api.vercel.app'
 
-const uploadUrl = import.meta.env.DEV ? '/api/upload' : 'https://shicoh-api.onrender.com/api/upload'
+const uploadUrl = import.meta.env.DEV ? '/api/upload' : 'https://shicoh-api.vercel.app/api/upload'
 
 // 将相对路径的图片URL转换为完整URL
 const getFullUrl = (url: string) => {

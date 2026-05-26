@@ -76,7 +76,7 @@ import { ElMessage, ElMessageBox } from 'element-plus'
 import request from '@/utils/request'
 import ImageUpload from '@/components/ImageUpload.vue'
 
-const API_BASE = import.meta.env.DEV ? '' : 'https://shicoh-api.onrender.com'
+const API_BASE = import.meta.env.DEV ? '' : 'https://shicoh-api.vercel.app'
 
 // 将相对路径的图片URL转换为完整URL
 const getImageUrl = (url: string) => {

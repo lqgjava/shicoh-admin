@@ -59,7 +59,7 @@ const editorConfig: Partial<IEditorConfig> = {
   placeholder: '请输入内容...',
   MENU_CONF: {
     uploadImage: {
-      server: import.meta.env.DEV ? '/api/upload' : 'https://shicoh-api.onrender.com/api/upload',
+      server: import.meta.env.DEV ? '/api/upload' : 'https://shicoh-api.vercel.app/api/upload',
       fieldName: 'file',
       headers: {
         Authorization: `Bearer ${userStore.token}`

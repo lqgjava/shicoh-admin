@@ -75,7 +75,7 @@ import { getNews, createNews, updateNews, deleteNews } from '@/api/content'
 import ImageUpload from '@/components/ImageUpload.vue'
 import RichEditor from '@/components/RichEditor.vue'
 
-const API_BASE = import.meta.env.DEV ? '' : 'https://shicoh-api.onrender.com'
+const API_BASE = import.meta.env.DEV ? '' : 'https://shicoh-api.vercel.app'
 
 // 将相对路径的图片URL转换为完整URL
 const getImageUrl = (url: string) => {
